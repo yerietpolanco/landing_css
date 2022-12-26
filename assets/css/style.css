@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.preheader {
+    border: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.header {
+    border: 5px solid rgb(94, 91, 214);
+    color: rgb(0, 0, 0);
+    background-color: white;  
+    text-align: left;
+    margin: 0rem 2rem 2rem 2rem; 
+    display:flex;
+    justify-content: space-around;
+    padding:1rem;
+    font-size: 100%;
+    font-family: 'Cabin';
+    align-items: center;
+}
+.titulogrande {
+    font-size: 3rem;
+    padding: 0;
+    margin:0;
+}
+.titulopequeño {
+    font-style: normal;
+    font-weight: bold; 
+    font-size:1rem; 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carrito {
+    font-family: Arial, Helvetica, sans-serif;font-size: 0.8rem;font-weight: bold;background-color: black;text-align: center;color: white;margin: 0;padding: 0;
+}
+.main {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0rem 2rem 0rem 2rem;
+}
+.product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% / 4);
+    font-family: roboto condensed,sans-serif;
+}
+
+.product:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.11);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.11);
+}
+
+.negrita {
+    font-weight: bold
+}
+.imagengrande {
+    margin: 2rem 2rem 2rem 2rem;
+}
+.imagengrande img {
+    width: 100%;
+}
+.footer {
+    background-color: rgba(93, 91, 214, 0.692); 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 4rem;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.h2{
+    font-family: 'Cabin';
+    font-size:2 rem;
+}
+.table {
+    display: flex;
+    margin: 0rem 2rem 0rem 0rem
+}
